@@ -1,11 +1,11 @@
 exports.infobot = (prefix) => {
 return`• ----------[ *INFO BOT* ]----------
-• *NAMA BOT :* Ramdani Botz
-• *NOMOR BOT :* 6288296339947
-• *NAMA OWNER :* Ramdani Official
-• *NOMOR OWNER :* 6289512545999
-• *LINK :* wa.me/6289512545999
-• *CREATOR :* RAMDANI OFFICIAL
+• *NAMA BOT :* Fachri Botz
+• *NOMOR BOT :* 
+• *NAMA OWNER :* Fachri
+• *NOMOR OWNER :* 6285713041886
+• *LINK :* wa.me/6285713041886
+• *CREATOR :* FACHRI
 • *BASE ORI :* RAMDANI OFFICIAL
 • *PREFIX :* MULTI PREFIX
 • *FITUR :* 500+
@@ -57,14 +57,14 @@ return`━━━━━『 *LIST PREMIUM* 』━━━━━
 }
 exports.groupbot = (prefix) => {
 return
-`kumpulan link grup bot by Ramdani Official (mastah 😎)
+`kumpulan link grup bot by Fachri ( Mastah:V )
 Link grup 1 = https://chat.whatsapp.com/Gq71DUTFOhRE9efPYyobYu
 Link grup 2 = https://chat.whatsapp.com/I4qx9yNFPXP6cGP7Q1zBhq
 Link grup 3 = https://chat.whatsapp.com/IbGdZllhP0Q92BJrOwvOLK
 Link grup coding bersama = https://chat.whatsapp.com/FR0FmwpBEmQ3HuyF2SIdVQ
 Link grup tes bot = https://chat.whatsapp.com/L8ucMoUQUTt3gKzSvpttbU
 Link grup murid bot = https://chat.whatsapp.com/IyNVUbMxyoSG0Sw0oe6T62
-Link grup saling subscribe = https://chat.whatsapp.com/Dx8VCkqvDSRD5yXXxQ3LK3`
+Link grup saling subscribe = -`
 }
 exports.infomenu = (prefix) => {
 return`*⌜ Info Menu⌟*
