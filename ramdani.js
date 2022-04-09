@@ -141,12 +141,12 @@ const { topuppulsa } = require('./plugins/topuppulsa')
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\ | |
 //======================================\\
 //------------------------ < F O T O > ------------------------\\
-let errorImg = 'https://i.ibb.co/FBm52Pt/1e0fe6a08b67.jpg'
-let fakeimage = fs.readFileSync("./media/foto/thumb.jpg")
-let fakeimg = fs.readFileSync("./media/foto/fakeimg.jpg")
-const fakemenu = fs.readFileSync('./media/foto/menu.jpg')
-const Mfake = fs.readFileSync('./media/foto/thumb.jpg')
-const Mthumb = fs.readFileSync('./media/foto/thumb.jpg')
+let errorImg = fs.readFileSync("./media/foto/emror.jpg
+let fakeimage = fs.readFileSync("./media/foto/20220301_171656.png")
+let fakeimg = fs.readFileSync("./media/foto/20220301_171656.png")
+const fakemenu = fs.readFileSync('./media/foto/20220301_171656.png')
+const Mfake = fs.readFileSync('./media/foto/20220301_171656.png')
+const Mthumb = fs.readFileSync('./media/foto/20220301_171656.png')
 
 //------------------------ < A U D I O > ------------------------\\
 randommp3 = ['males','buatapa','anjing','apa','araara','wataisi','arigatou','mastah']
@@ -400,7 +400,7 @@ module.exports = Ramdani = async (Ramdani, mek) => {
 
         
         const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-            let po = Ramdani.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "© ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ","listType": "SINGLE_SELECT","sections": list}}, {})
+            let po = Ramdani.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "© ʙʏ 𝐅𝐀𝐂𝐇𝐑𝐈","listType": "SINGLE_SELECT","sections": list}}, {})
             return Ramdani.relayWAMessage(po, {waitForAck: true})
         }
         
@@ -430,7 +430,7 @@ sendEphemeral: false,
                 "mediaType": "10",
                 "mediaUrl": `https://youtube.com/c/SaefulFahri`,
                 "thumbnailUrl": "https://youtube.com/c/SaefulFahri",
-                "thumbnail": fakeimg,
+                "thumbnail": 20220301_171656,
                 "sourceUrl": `https://youtube.com/c/SaefulFahri`,
 },mentionedJid:[sender]}, quoted : mek})
 };
@@ -578,7 +578,7 @@ sendEphemeral: false,
           let authorname = Ramdani.contacts[from] != undefined ? Ramdani.contacts[from].vname || Ramdani.contacts[from].notify : undefined	
           if (authorname != undefined) { } else { authorname = groupName }	
           function addMetadata(packname, author) {	
-          if (!packname) packname = 'Dibuat Oleh'; if (!author) author = '© Ramdani Official';author = author.replace(/[^a-zA-Z0-9]/g, '');	
+          if (!packname) packname = 'Dibuat Oleh'; if (!author) author = '© Fachri';author = author.replace(/[^a-zA-Z0-9]/g, '');	
           let name = `${author}_${packname}`
           if (fs.existsSync(`./media/sticker/${name}.exif`)) return `./media/sticker/${name}.exif`
           const json = {	
@@ -993,7 +993,7 @@ const sendButLocation = async(id, text1, desc1, gam1, but = [], options = {}) =>
   //Buat fake info bot
 //DI UBAH YATIM
 danzrun = process.uptime() 
-           Ramdani.setStatus(`${namabot} Aktif Selama ${(danzrun)} © Creator By Ramdani Official`).catch((_)=>_); //DI UBAH YATIMM
+           Ramdani.setStatus(`${namabot} Aktif Selama ${(danzrun)} © Creator By Fachri`).catch((_)=>_); //DI UBAH YATIMM
           settingstatus = new Date() * 1;
 const jmn = moment.tz('Asia/Jakarta').format('HH.mm')
 				let d = new Date
