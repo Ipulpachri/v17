@@ -428,10 +428,10 @@ sendEphemeral: false,
                 "title": `${ucapanWaktu}`,
                 "body": `${faketroli}`,
                 "mediaType": "10",
-                "mediaUrl": `https://youtube.com/channel/UCB157jomCne961WzYHpG4gg`,
-                "thumbnailUrl": "https://youtube.com/channel/UCB157jomCne961WzYHpG4gg",
+                "mediaUrl": `https://youtube.com/c/SaefulFahri`,
+                "thumbnailUrl": "https://youtube.com/c/SaefulFahri",
                 "thumbnail": fakeimg,
-                "sourceUrl": `https://youtube.com/channel/UCB157jomCne961WzYHpG4gg`,
+                "sourceUrl": `https://youtube.com/c/SaefulFahri`,
 },mentionedJid:[sender]}, quoted : mek})
 };
         const sendMess = (hehe, teks) => {
@@ -1116,7 +1116,7 @@ break
 
                buttonsMessage = {
                contentText: `${txtt}`,
-               footerText: 'Jangan Ganggu Owner Ku🗿',
+               footerText: 'Hai Kak, itu owner ku jangan ganggu ya kak🗿',
                buttons: buttons,
                headerType: 1
 }
@@ -1137,14 +1137,14 @@ break
 
     『 *BOT INFO* 』
 
-⛱ *Device* : xiaomi redmi 4A
+⛱ *Device* : xiaomi redmi 5A
 🗺 *Wa Version* : 2.22.3.77
 💬 *OS Version* : 10
 🌐 *Platfrom* : android/pc
 📳 *Mode* : > public mode <
 ☢ *Prefix* : > multi prefix <
 🔋 *baterai bot* : ${baterai}
-👨💻 *Name Creator* : Ramdani Official
+👨💻 *Name Creator* : Fachri
 
 
        『 *USER INFO* 』
@@ -1164,7 +1164,7 @@ break
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: 'ᴊɪᴋᴀ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴇʀʀᴏʀ sɪʟᴀʜᴋᴀɴ ᴋᴇʟɪᴋ .ᴀʟʟᴍᴇɴᴜ ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ᴍᴇɴᴜ\n© ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ', imageMessage: imageMsg,
+               footerText: 'ᴊɪᴋᴀ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴇʀʀᴏʀ sɪʟᴀʜᴋᴀɴ ᴋᴇʟɪᴋ .ᴀʟʟᴍᴇɴᴜ ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ᴍᴇɴᴜ\n© ʙʏ 𝐅𝐀𝐂𝐇𝐑𝐈', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1818,7 +1818,7 @@ break
 
                buttonsMessage = {
                contentText: `${allmenu}`,
-               footerText: '© ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ', imageMessage: imageMsg,
+               footerText: '© ʙʏ 𝐅𝐀𝐂𝐇𝐑𝐈', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1858,11 +1858,11 @@ case 'infobot2':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(`━━━━━ *INFO BOT* ━━━━━
-❏ BASE ORI : Ramdani Official
+❏ BASE ORI : Ramdani Official 
 ❏ TYPE SC : nodejs
 ❏ DI BUAT PADA : sel, 29, mart, 2022
-❏ GITHUB CREATOR : https://github.com/Ramdaniofficial
-❏ YT CREATOR : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg
+❏ GITHUB CREATOR : https://github.com/Ipulpachri
+❏ CHANNEL CREATOR : https://youtube.com/c/SaefuFachri
 *━━━━━━━━━━━━━━━━━━━━*`)
 randommusic = fs.readFileSync(`./media/audio/${randomaudio}.mp3`)
 Ramdani.sendMessage(from, randommusic, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
@@ -1871,7 +1871,7 @@ case 'script2': case 'sc2':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(`━━━━━ *SCRIPT* ━━━━━
-❏ LINK VIA GITHUB : https://github.com/Ramdaniofficial/v17
+❏ LINK VIA GITHUB : https://github.com/
 ❏ BASE ORI : Ramdani Official
 ❏ TYPE SC : nodejs
 ❏ DI BUAT PADA : sel, 29, mart, 2022
@@ -1892,7 +1892,7 @@ break
 
                buttonsMessage = {
                contentText: `${qris}`,
-               footerText: '© ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ', imageMessage: imageMsg,
+               footerText: '© ʙʏ 𝐅𝐀𝐂𝐇𝐑𝐈', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -2013,6 +2013,7 @@ freply(`• *BIG THANKS TO*
 • KURR XD OFFICIAL
 • DIKA XD
 • SIEGRIN
+• Fachri
 • KANNABOT
 • YANZ BOT`)
 randomaudi = fs.readFileSync(`./media/audio/${randomaudio}.mp3`)
@@ -3079,7 +3080,7 @@ teksnya = `*[ PAYMENT ]*
 *Gopay :* 089512545999
 *Dana :* 089512545999
 *Ovo :* 089512545999
-*[ © ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ ]*`
+*[ © ʙʏ 𝐅𝐀𝐂𝐇𝐑𝐈 ]*`
         Ramdani.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 //--------------------<const menu>--------------------
